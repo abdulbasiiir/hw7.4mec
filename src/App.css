@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button.add {
+  background-color: #28a745;
+  color: white;
+}
+
+button.edit {
+  background-color: #007bff;
+  color: white;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.save {
+  background-color: #ffc107;
+  color: white;
+}
+
+button.cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.task span {
+  flex: 1;
+  text-align: center;
+}
+
+.task div {
+  display: flex;
+  align-items: center;
+}
+
+.task button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.task button:hover {
+  color: #007bff;
+}
+
+.task button.delete:hover {
+  color: #dc3545;
+}
